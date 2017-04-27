@@ -1,0 +1,30 @@
+{
+    "name": "larakit/lk-pusher",
+    "description": "[Larakit] pusher",
+    "version": "5.0.0",
+    "keywords": [
+        "pusher",
+        "laravel",
+        "laravel 5",
+        "larakit"
+    ],	
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alexey Berdnikov",
+            "email": "aberdnikov@gmail.com"
+        }
+    ],
+    "require": {
+        "pusher/pusher-php-server": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Larakit\\Pusher\\": "src/Pusher"
+        },
+        "files": [
+            "src/init.php"
+        ]
+    },
+    "minimum-stability": "dev"
+}
